@@ -16,7 +16,8 @@ function app() {
         }, 800)
     }
 
-    $('.up').on('click', function() {
+    $('.up').on('click', function(event) {
+        event.preventDefault();
         $('body, html').animate({scrollTop: 0}, 600);
     });
 
