@@ -4,6 +4,14 @@ header nav {
 
 header .navbar {
     padding-right: 30px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 103
+}
+
+header .navbar-nav {
+    text-align: center;
 }
 
 header nav .navbar-nav .nav-link {
@@ -304,12 +312,6 @@ form label {
 
 .up:hover {
     background: rgba(0, 0, 0, 0.9);
-}
-
-@media (max-width: 768px) {
-    .up {
-        display: none!important;
-    }
 }
 
 .fa-chevron-up {
